@@ -22,13 +22,16 @@ body{
 .presentacion{
     display: flex;/*Alineando los elementos con flexbox.- Aliena arriba*/
     align-items: center; /*Alineacion al centro del elemento mayor*/
-    margin: 10%; /*establece un margen*/
+    margin: 10% 15%; /*establece un margen*/
     justify-content: space-between; /*El contenido se coloca al inicio y al final, con un espacio en el centro*/
    
 }
 
 .presentacion__contenido{
     width: 615px;
+    display: flex; /*Alinea todo al centro*/
+    flex-direction: column;/*Organiza en columnas*/
+    gap: 40px; /*Espacio entre filas y columnas*/
 }
 
 .presentacion__contenido__titulo{
